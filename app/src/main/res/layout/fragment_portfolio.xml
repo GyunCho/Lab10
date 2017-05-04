@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.temple.lab10.PortfolioFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ListView
+        android:id="@+id/stockList"
+        android:layout_width="match_parent"
+        android:layout_height="450dp" />
+
+    <TextView
+        android:id="@+id/longClickExplainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stockList"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Long click Item to remove it" />
+
+</RelativeLayout>
